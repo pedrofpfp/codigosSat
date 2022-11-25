@@ -1,0 +1,1 @@
+worker: pyhton LeituraWebBDD.py
