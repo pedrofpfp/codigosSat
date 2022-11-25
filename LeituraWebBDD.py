@@ -1,5 +1,7 @@
+import mysql.connector
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+import heroku3
 import time
 import js2py
 
@@ -224,11 +226,8 @@ def createNOAA19(conn):
 
   
 
-conn = pyodbc.connect(
-    "Driver={SQL Server Native Client 11.0};"
-    "Server=LAPTOP-BNJAIE7E;"
-    "Database=dataReceive;"
-    "Trusted_Connection=yes;"
+conn = mysql.connector.connect(
+    host='database-1.cm2tmkcbpbho.us-east-1.rds.amazonaws.com',database='dataReceive',user='admin',password='X#vvv3478'
 )
 
 #read(conn)
