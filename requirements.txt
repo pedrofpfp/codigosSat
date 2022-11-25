@@ -12,7 +12,6 @@ cssselect==1.2.0
 exceptiongroup==1.0.4
 fake-useragent==1.0.1
 h11==0.14.0
-heroku==0.1.4
 idna==2.5
 importlib-metadata==5.0.0
 Js2Py==0.74
